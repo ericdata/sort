@@ -1,7 +1,7 @@
 /*
  *bubble sort 
  */
-void bubblesort(int *array, int length)
+void bubble_sort(int *array, int length)
 {
     int i, j, temp;
     for (i = 0; i < length; i++){
@@ -14,4 +14,4 @@ void bubblesort(int *array, int length)
         }
     }
 }
-//end bubblesort
+//end bubble_sort
