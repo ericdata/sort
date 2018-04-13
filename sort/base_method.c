@@ -1,4 +1,21 @@
 /*
+ *bubble sort 
+ */
+void bubble_sort(int *array, int length)
+{
+    int i, j, temp;
+    for (i = 0; i < length; i++){
+        for (j = 1; j < length - i; j++){
+            if (array[j - 1] > array[j]){
+                temp = array[j];
+                array[j] = array[j-1];
+                array[j-1] = temp;
+            }
+        }
+    }
+}
+//end bubble_sort
+/*
  *quick_sort
  */
 void quick_sort(int *array, int left, int right){
