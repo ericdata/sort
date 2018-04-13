@@ -1,5 +1,5 @@
-# sort
-this project is created to test the algorithm of sort
+# module
+this project is created to record the good code snippet.
 
 1.create a new repository on the command line
 
@@ -18,3 +18,6 @@ git push -u origin master
 3.import code from another repository
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+M1: Sort: test the algorithm of sort
+
